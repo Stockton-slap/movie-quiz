@@ -80,4 +80,4 @@ Technical tasks:
 - content
 - structure
 
-Stack of technologies: TypeScript, JavaScript, React, React Router, SCSS, REST, axios, Redux thunk, MUI, formik, Firebase
+Stack of technologies: TypeScript, JavaScript, React, React Router, SCSS, REST, axios, Redux thunk, MUI, formik, TailwindCSS, Firebase

@@ -4,7 +4,13 @@
     "target": "es6",
     "lib": ["dom", "es2015"],
     "jsx": "react",
-    "strict": true,
+    "strict": true, 
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*"]
+    },
+    "moduleResolution": "node",
+
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
   "exclude": ["node_modules"]

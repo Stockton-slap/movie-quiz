@@ -1,16 +1,18 @@
-import { addDoc, collection } from "@firebase/firestore";
+import { getDoc, collection, doc } from "@firebase/firestore";
 import { firestore } from "../firebase_setup/firebase";
 
-const handleSubmit = async (testdata) => {
-  const ref = collection(firestore, "test_data");
-
-  let data = {
-    testData: testdata,
-  };
+const handleSubmit = async () => {
+  const roundsRef = collection(firestore, "rounds");
 
   try {
-    const docRef = await addDoc(ref, data);
-    console.log("Document written with ID: ", docRef.id);
+    const docRef = await getDoc(doc(roundsRef, "round"));
+
+    if (docRef.exists()) {
+      const data = docRef.data();
+      console.log("Document data:", data);
+    } else {
+      console.log("Document does not exist");
+    }
   } catch (err) {
     console.error("Error adding document: ", err);
   }
