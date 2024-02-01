@@ -1,10 +1,5 @@
 import React from "react";
-import Header from "../common/Header";
 
 export default function Quiz() {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <div>1</div>;
 }

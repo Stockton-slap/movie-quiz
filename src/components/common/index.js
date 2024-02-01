@@ -1,3 +1,2 @@
-export { default as Header } from "./Header";
-export { default as Footer } from "./Footer";
-export { default as Button } from "./Button";
+export { default as Button } from "../common/Button";
+export { default as LogoIcon } from "../common/LogoIcon";

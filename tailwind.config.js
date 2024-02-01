@@ -10,6 +10,8 @@ module.exports = {
     colors: {
       white: "#fff",
       black: "#000",
+      orange: "#fdbc42",
+      brown: "#711414",
     },
     fontSize: {
       xs: ["14px", "1.2"],
