@@ -2,10 +2,12 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "target": "es6",
-    "lib": ["dom", "es2015"],
+    "lib": ["dom", "es2015", "es2017"],
+    "types": ["node", "react"],
     "jsx": "react",
     "strict": true, 
     "baseUrl": "./src",
+    "noImplicitAny": false,
     "paths": {
       "*": ["types/*"]
     },

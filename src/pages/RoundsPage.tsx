@@ -1,6 +1,6 @@
-import Rounds from "../components/quiz/Rounds";
 import React from "react";
+import RoundsList from "../components/Rounds/RoundsList";
 
 export default function RoundsPage() {
-  return <Rounds />;
+  return <RoundsList />;
 }

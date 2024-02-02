@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./index.css";
 
 import HomePage from "./pages/HomePage";
-import SharedLayout from "./components/layout/SharedLayout";
 import RoundsPage from "./pages/RoundsPage";
+import SharedLayout from "./components/Layout/SharedLayout";
 
 const App: React.FC = () => {
   return (
